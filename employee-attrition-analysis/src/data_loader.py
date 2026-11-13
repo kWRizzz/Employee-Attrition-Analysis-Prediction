@@ -53,6 +53,7 @@ def inspect_data(df: pd.DataFrame) -> None:
     print(df.describe().T)
 
     print("\n" + "=" * 70)
+    
     print("8. TARGET VARIABLE: Attrition")
     if "Attrition" in df.columns:
         print(df["Attrition"].value_counts())
