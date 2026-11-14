@@ -52,6 +52,7 @@ def inspect_data(df: pd.DataFrame) -> None:
     print("7. NUMERIC SUMMARY STATISTICS")
     print(df.describe().T)
 
+
     print("\n" + "=" * 70)
     
     print("8. TARGET VARIABLE: Attrition")
